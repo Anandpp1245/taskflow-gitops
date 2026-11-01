@@ -22,7 +22,7 @@ spec:
         runAsUser: 1000
       containers:
         - name: notification-service
-          image: ghcr.io/anandpp1245/taskflow-notification-service:bfb6c58
+          image: ghcr.io/anandpp1245/taskflow-notification-service:0d828c5
           ports:
             - containerPort: 5003
           env:
