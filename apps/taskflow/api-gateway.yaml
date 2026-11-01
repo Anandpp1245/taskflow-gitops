@@ -22,7 +22,7 @@ spec:
         runAsUser: 1000
       containers:
         - name: api-gateway
-          image: ghcr.io/anandpp1245/taskflow-api-gateway:0d828c5
+          image: ghcr.io/anandpp1245/taskflow-api-gateway:c6d10f7
           ports:
             - containerPort: 5000
           env:
