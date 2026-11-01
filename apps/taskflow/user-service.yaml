@@ -22,7 +22,7 @@ spec:
         runAsUser: 1000
       containers:
         - name: user-service
-          image: ghcr.io/anandpp1245/taskflow-user-service:c131ccc
+          image: ghcr.io/anandpp1245/taskflow-user-service:bfb6c58
           ports:
             - containerPort: 5002
           env:
